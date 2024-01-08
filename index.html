@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">SOUMYA<span>DIP</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome All!!</p>
+                <h1>Namaskaar, I'm <span style="color: #17e5ec;">Soumyadip Giri</span> <br>from India <i class="fa-solid fa-hands-praying"></i></h1> <br>
+                <p></p>
+            </div>
+        </div>
+    </div>
+<!------ABOUT------>
+    <div id="about">
+         <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="sgimages/sg-2.jpg" alt="" height="590px" width="435px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p >I being a passionate student and tech enthusiast with a strong foundation in Java, web development, and graphics design. Always hungry for knowledge, curiosity drives me to learn and explore more in the tech world. I enjoy coding in Java . Basic knowledge in HTML, CSS, and web development . My interest in graphics design helps me to work on different types of projects . Eager to grow, I constantly seeks new challenges and opportunities to expand my skill set, aspiring to make a significant impact in the tech industry through continuous learning and innovation.<p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Developement</span><br>Web app Developement</li>
+                            <li><span>Social Media</span><br>Social Media Marketing and Managing</li>
+                            <li><span>Photography and Videography</span><br>Photography and videography of events. Creating reels and videos</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Graphics Designer</span><br>Creating posters,app/web designs and worked for a company in the department of designing</li>
+                            <li><span>Web Developement</span><br>Self made projects and working on university projects</li>
+                            <li><span>Social Media Marketing and Branding</span><br>Managed instagram page of a company as well as university official pages. Creatinsg reels and posts. Intern at SOET Branding and Marketing of Adamas University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>Currently persuing B.Tech in CSE from Adamas University</li>
+                            <li><span>2022</span><br>ISC (12th Board Examination)</li>
+                            <li><span>2020</span><br>ICSE (10th Board Examination)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+         </div>   
+    </div>
+
+    <!----------------SERVICES--------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color: #b3c5c3;">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Design</h2>
+                    <p>
+                        Transform ideas into visual brilliance. I create compelling graphic designs of posters, banners, logo, and few more. Also designing app and web pages.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>Social-media Marketing</h2>
+                    <p>Social media marketing is a great way to make online presence essential any brand. I have been working with it for past two years.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera"> / </i> &nbsp; <i class="fa-solid fa-video"></i>
+                    <h2>Photography /Videography</h2>
+                    <p>Capture moments beautifully with my photography and videography. Capturing memories, creating stories. Making shorts and reels of events.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------PORTFOLIO------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style="color: #b3c5c3;">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="sgimages/work1.jpg" style="height: 580px; width: 430px;">
+                    <div class="layer">
+                        <h3>E-Commercer Web Design</h3>
+                        <p>The e-commerce website is for the new edge fashion world. Clothings and fshion accessories displayed with a moder style designs. </p>
+                        <a href="https://www.figma.com/file/5MvsIMOkq13RWgkaOV7tVW/E-cOMMERSE-BY-SOUMYADIP-GIRI?type=design&node-id=0%3A1&mode=design&t=uDectVIVstbKjc9h-1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sgimages/work.jpg" style="height: 580px; width: 430px;">
+                    <div class="layer">
+                        <h3>Food Basket App Design</h3>
+                        <p>The food basket application design for food donation projects from different sources.</p>
+                        <a href="https://www.figma.com/file/VvivHQQlrsDPKfVdIBcO0y/Untitled?type=design&node-id=0%3A1&mode=design&t=LM3x4kbJw45KQg7v-1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sgimages/work2.jpg" style="height: 580px; width: 430px;">
+                    <div class="layer">
+                        <h3>Graphic Designs</h3>
+                        <p>Different types of posters,event posts, banners and logo designs</p>
+                        <a href="https://www.canva.com/design/DAF5OPD9hMY/-cQ6xW4mYlGCYqUWyI-TKw/edit?utm_content=DAF5OPD9hMY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sgimages/wc2.jpg" style="height: 580px; width: 430px;">
+                    <div class="layer">
+                        <h3>Photos and Videos shorts</h3>
+                        <p>Capturing Moments as in the form of images or videos.</p>
+                        <a href="https://www.instagram.com/reel/CnTupbmIQG1/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-------------CONTACTS---------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> &nbsp;soumyadip06giri2003@gmail.com</p>
+                   <p><i class="fa-solid fa-square-phone"></i> &nbsp;+91 7074596607</p>
+                   <div class="social-icons">
+                    <a href="https://www.instagram.com/soumyadip_giri__/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/soumyadip-giri--/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/SoumyadipGiri15"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/subha.giri.5817/"><i class="fa-brands fa-facebook"></i></a>
+                   </div>
+                   <a href="https://www.canva.com/design/DAFiowU9OjU/mvtKxyfVO8garNV16NnFWg/edit?utm_content=DAFiowU9OjU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn2">Check-out My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 | Soumyadip Giri</p>
+        </div>
+    </div>
+
+<!--------------JAVASCRIPT---------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxf12NakBunSKb3UHOXhaVuCWBjse0U3ILvT_9z3o7SPFCUPQa8lQT62kvGTmQtd-D8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function()
+            {
+                msg.innerHTML = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
