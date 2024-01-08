@@ -409,7 +409,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url("sgimages/SOUMYADIP.png");
+        background-image: url("sgimages/SOUMYADIP1.png");
     }
     .header-text{
         margin-top: 100%;
@@ -460,7 +460,7 @@ nav .fa-solid {
     }
 
     .quote{
-        font-size: 10px;
+        font-size: 11px;
         margin-top: 5px;
     }
     .sub-title{
