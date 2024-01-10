@@ -85,7 +85,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 20px;
 }
 
@@ -442,6 +442,7 @@ nav .fa-solid {
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
+        border-bottom-left-radius: 10PX;
     }
 
     nav ul li{
